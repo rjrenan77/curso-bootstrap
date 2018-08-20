@@ -2,6 +2,24 @@
 	margin-top: 20px;
 }
 
+body{
+	height: 100%;
+}
+
+html, header{
+	background-image: url(img/castelo.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+
+}
+
+header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
 .titulo-depoimentos {
 	background-color: #0275D8;
 	padding-top: 22px;
@@ -10,4 +28,39 @@
 	margin-bottom: 0;
 	font-size: 25px;
 
+}
+
+
+.topcasafina-banner{
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	width: 90%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50% ,-50%);
+	left: 50%
+
+}
+
+.contato-select,.grupo-radio{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+	margin-top: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+footer address:last-child{
+	margin-bottom: 0;
 }
