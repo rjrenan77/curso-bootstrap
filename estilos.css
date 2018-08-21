@@ -76,3 +76,17 @@ footer address:last-child{
 		margin-top: 0;
 	}
 }
+
+@media(min-width: 992px){
+	.topcasafina-banner{
+		left: 0;
+		transform: translate(0% ,100%);
+		width: 60%;
+
+	}
+
+	.topcasafina-bannerWrapper {
+		position: relative;
+		height: 30%;
+	}
+}
